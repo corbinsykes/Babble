@@ -19,7 +19,6 @@ namespace :tweetstream do
       end
     end
 
-
   # desc "Tweets in other languages"
   #   task :foreign_stream => :environment do
   #     TweetStream::Client.new.locations(-74.264885, 40.490043, -73.757111, 40.884448) do |tweet|
