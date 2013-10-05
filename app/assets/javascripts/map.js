@@ -16,7 +16,7 @@ var dataPoints = [{
           // create AmMap object
           var map = new AmCharts.AmMap();
           // set path to images
-          map.pathToImages = "../../assets/images/";
+          map.pathToImages = "../images/";
 
           /* create data provider object
            mapVar tells the map name of the variable of the map data. You have to
@@ -50,7 +50,7 @@ var dataPoints = [{
           };
 
           // let's say we want a small map to be displayed, so let's create and add it to the map
-          map.smallMap = new AmCharts.SmallMap();
+          // map.smallMap = new AmCharts.SmallMap();
 
           // write the map to container div
           map.write("mapdiv");
