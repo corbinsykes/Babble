@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Tweet.create(lat: 43.01044597, lng: -78.89705785, lang: "en")
+Tweet.create(lat: 40.44018324, lng: -74.48147099, lang: "fr")
+Tweet.create(lat: 40.86234808, lng: -73.89664712, lang: "es")
