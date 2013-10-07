@@ -25844,7 +25844,6 @@ centered: true}];
               rollOverOutlineColor: "#FFFFFF"
           };
 
-
           map.write("mapdiv");
 
       });
