@@ -1,3 +1,4 @@
+<%= @tweets.length %>
 <% @tweets.each do |tweet| %>
 {</br>
   svgPath: tweetSVG,</br>
@@ -9,6 +10,36 @@
     color: '#FFFA19',
   <% elsif tweet.lang == "fr" %>
     color: '#FF010D',
+  <% elsif tweet.lang == "pt" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "tr" %>
+    color: '#9B59B6',
+  <% elsif tweet.lang == "ar" %>
+    color: '#156943',
+  <% elsif tweet.lang == "lv" %>
+    color: '#83611A',
+  <% elsif tweet.lang == "id" %>
+    color: '#ACB659',
+  <% elsif tweet.lang == "sl" %>
+    color: '#34495E',
+  <% elsif tweet.lang == "nl" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "no" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "sk" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "tl" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "pl" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "et" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "ru" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "ja" %>
+    color: '#FFFA19',
+  <% elsif tweet.lang == "sv" %>
+    color: '#FFFA19',
   <% elsif tweet.lang == "und" %>
     color: '#000000',
   <% else %>
